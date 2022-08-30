@@ -46,6 +46,8 @@ function desencriptar(stringDesencriptado){
 }
 
 function botonCopiar(){
-    
+    var content = document.getElementById("#mensaje");
+    mensaje.select();
+    document.execCommand('copy');
     
 }
