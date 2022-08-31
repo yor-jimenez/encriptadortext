@@ -1,8 +1,15 @@
+body{
+    transform: scale(0.75,0.60);
+    margin-top: -160px;
+    margin-left: -80px;
+    background-color: rgb(59, 211, 59);
+    }
+
 #caja{
     position: relative;
     width: 1440px;
     height: 1024px;
-    background-color: #F3F5FC;
+    background-color: lightgreen;
 }
 
 #imagen{
@@ -24,7 +31,7 @@
 #input-texto{
     position: absolute;
     width: 577px;
-    height: 48px;
+    height: 300px;
     left: 240px;
     top: 168px;
     font-family: 'Inter';
@@ -32,6 +39,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    border-radius: 24px;
 }
 
 .botones{
@@ -55,24 +63,15 @@
     gap: 8px;
     width: 328px;
     height: 67px;
-    /* Dark blue/dark-blue-300 */
-    background: #0A3871;
+    background:  rgb(59, 211, 59);
     border-radius: 24px;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
+    font-size: 180%;
 }
 
 .desencriptar{
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-    position: absolute;
-    width: 680px;
-    height: 67px; */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -81,12 +80,11 @@
     width: 328px;
     height: 67px;
     left: 240px;
-    /* top: 885px; */
     border-radius: 24px;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
+    font-size: 180%;
 }
 
 .cajaderecha{
@@ -95,12 +93,7 @@
     height: 944px;
     left: 1000px;
     top: 40px;
-
-/* White */
-
     background: #FFFFFF;
-/* shadow */
-
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 }
@@ -123,13 +116,35 @@
     height: 122px;
     left: 32px;
     top: 619px;
-    /* background-color: red; */
+    border-radius: 24px;
 }
 
 .copiar{
-    /* margin-bottom: auto; */
     position: absolute;
     top: 751px;
-    left: 170px;
+    left: 130px;
+    width: 150px;
+    height: 40px;
+    background:  rgb(59, 211, 59);
+    flex-grow: 0;
+    font-size: 180%;
+    border-radius: 24px;
 }
 
+.superimg{
+    transform: scale(0.2);
+   
+}
+
+footer{
+    top: 780px;
+    position: absolute;
+    left: -40px;
+}
+
+.copyright{
+    margin-left: 260px;
+    margin-top: -200px;
+    font-style: italic;
+    font-weight: bold;
+}
