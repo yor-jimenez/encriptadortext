@@ -10,8 +10,8 @@ const mensaje = document.querySelector("#mensaje")
 function botonEncriptar(){
     const textoEncriptado = encriptar(inputTexto.value)
     mensaje.value = textoEncriptado;
-    mensaje.style.backgroundImage = "none"
-    inputTexto.value = ""
+    mensaje.style.backgroundImage = "none";
+    inputTexto.value = "";
 }
 
 function encriptar(stringEncriptado){
